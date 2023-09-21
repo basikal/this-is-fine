@@ -1,1 +1,25 @@
+{
+    "subject": "acct:basikal@vivaldi.net",
+    "aliases": [
+        "https://vivaldi.net/@basikal",
+        "https://vivaldi.net/users/basikal",
+        "basikal@vivaldi.net"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://vivaldi.net/@basikal"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://vivaldi.net/users/basikal"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://vivaldi.net/authorize_interaction?uri={uri}"
+        }
+    ]
+}
 
